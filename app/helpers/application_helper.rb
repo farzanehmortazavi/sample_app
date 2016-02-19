@@ -8,4 +8,10 @@ module ApplicationHelper
       "#{page_title} | #{base_title}"
     end
   end
+  
+  def class_name(page)
+    base_title = page.class
+    
+  end
+  
 end
