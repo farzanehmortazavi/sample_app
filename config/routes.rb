@@ -6,6 +6,8 @@ get 'help' => 'staticpages#help'
 get 'about' => 'staticpages#about'
 get 'contact' => 'staticpages#contact'
 get 'signup' => 'users#new'
+get 'profile' => 'staticpages#profile'
+
 end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
